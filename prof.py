@@ -9,6 +9,8 @@ Options:
   -h --help
   -f FILE      specify output file [default: ./prof]
 """
+#fore more options:
+# http://cyrille.rossant.net/profiling-and-optimizing-python-code/
 from docopt import docopt
 import pstats
 
